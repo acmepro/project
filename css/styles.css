@@ -1,0 +1,106 @@
+body{
+  font-family: 'Source sans pro';
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  margin:0 0 12px;
+}
+
+p{
+  color:#808384;
+}
+
+/* Navigation Bar */
+.navbar{
+  padding: 1.5rem 2.5rem 1.5rem;
+}
+
+.navbar-brand{
+  font-family:"Playfair Display";
+  color: #000;
+}
+
+.nav-item{
+   padding: 16px;
+}
+
+a.nav-link:hover{
+  color: #fff;
+  background-color: #74FBFF;
+  border-color: #000;
+}
+
+/* container */
+.container-fluid{
+  padding: 7% 12%;
+}
+
+.big-heading{
+    font-size: 3.5rem;
+}
+
+.download-btn{
+  margin: 2% 3% 5% 0;
+  background-color: #74FBFF;
+  color: #000;
+  border-color:#74FBFF;
+}
+
+.download-btn:hover {
+  color: #808384;
+  background-color: #74FBFF;
+  border-color:#fcfcfc;
+}
+
+.image{
+  width: 100%;
+}
+
+/* features */
+.feature-box{
+  padding: 4.5%;
+  text-align: center;
+}
+
+.icon{
+  color:#808384;
+  margin-bottom: 2.5rem;
+}
+
+.price-button:hover{
+  color: #808384;
+  background-color: #74FBFF;
+  border-color:#fcfcfc;
+}
+
+.card-image{
+  width: 60%;
+  margin: auto;
+}
+
+.social-icon{
+  padding: 12px;
+}
+
+.footer{
+  padding: 5% 10% 1%;
+  text-align: center;
+}
+
+@media (max-width:1020px) {
+
+body{
+  text-align: center;
+}
+
+p{
+  font-size:16px;
+}
+
+
+.image{
+  width: 50%;
+}
+
+}
